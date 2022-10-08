@@ -1,0 +1,79 @@
+#maindiv{
+
+    width: 100%;
+  
+   
+}
+
+#container{
+ 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    margin-top: 5%;
+    
+   
+}
+body{
+background-color: hsla(0,100%,50%,0.5);; 
+/* background-image: url("./78536543.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover; */
+}
+select {
+    overflow-y: auto;
+    font-size: larger;
+    background-color: rgb(5, 96, 96);
+    border-radius: 10%;
+    text-align: center;
+    color: ghostwhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+select>option{
+    width: 350px ;
+    height: 100px;
+}
+button{
+
+    /* border-radius: 50% 50% 50% 50%; */
+    font-size: larger;
+    background-color: red;
+    color: aliceblue;
+    width: 100px;
+}
+option:checked{
+   background-color: rgba(161, 197, 96, 0.733);
+   color: rgb(88, 15, 45);
+   font-weight: bolder;
+}
+/* #computerResult,#result{
+    color: blueviolet;
+    border: 5px solid black;
+} */
+footer{
+    display: flex;
+    flex-direction: row-reverse;
+}
+footer>div{
+    font-size: smaller;
+    align-content: flex-end;
+}
+
+h1{
+
+
+    color: rgb(5, 47, 68);
+}
+hr{
+
+    background-color:  rgb(6, 87, 60);
+}
+
+audio{
+
+    display: none;
+}

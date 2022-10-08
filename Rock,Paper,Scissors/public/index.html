@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kashpak</title>
+    <script src="./app.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./Resources/logo.jpeg">
+
+</head>
+<body>
+    
+    <div   id="maindiv">
+        <audio preload="auto"  loop autoplay src="./Resources/SkyrimPiano.mp3"></audio>
+        <div id="welcomeDiv"  style="display:none;"  > Rock wins against scissors; paper wins against rock; and scissors wins against paper</div>
+        <input type="button" name="Rule" value="Rules" onclick="showDiv()" />
+        
+        <div id="container">
+
+            <h1>Get ready for Rock,Paper,Scissors</h1>
+            <div>
+
+                
+                <select onclick="refresh()" size="3" name="userChoice" id="userChoice">
+                    <option value="1">Scissor</option>
+                    <option value="2">Paper</option>
+                    <option value="3">Rock</option>
+                </select>
+<br><br>
+            </div>
+            <button onclick="mainClick()">Play</button>
+            <audio id="clap" preload="auto"  src="./Resources/ClappingEffect.wav"></audio>
+          
+<br><br>
+            <div  id="result">
+
+
+            </div>
+            <div id="computerResult">
+
+            </div>
+
+
+
+        </div>
+      
+    </div>
+
+<hr>
+
+    <footer>
+       
+       <div>
+        &#169 Kashpak
+        <br>
+        Muhammad Ahsan
+        <br>Muhammadan.Ahsan@gmail.com
+       </div>
+       
+    </footer>
+</body>
+</html>
