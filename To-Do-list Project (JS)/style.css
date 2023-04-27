@@ -1,0 +1,106 @@
+
+  @font-face {
+    font-family: 'myFontName'; /* this value can be anything you wish - it gets used in the class definition below */
+    src: url('./SevenSegment.ttf'); /* add the file path to your font here */
+  }
+
+body {
+    background-color: black;
+    border: solid rgb(158, 16, 16);
+    min-height: 1000PX;
+}
+
+header>h4 {
+
+    display: inline;
+    color: aliceblue;
+    position: relative;
+    bottom: 30%;
+}
+
+img {
+
+    height: 75px;
+    width: 75px;
+
+}
+
+section {
+    position: sticky;
+    min-height: 1000PX;
+}
+
+
+#tab {
+    border: solid black;
+    align-items: center;
+    justify-items: center;
+}
+
+
+#mainDiv {
+    /* border: solid rgb(158, 16, 16); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+#buttons {
+    position: relative;
+    top: 5px;
+    left: 55%;
+    right: 0%;
+    border: solid gray;
+    box-shadow: 3px;
+}
+
+#lastvalue{
+    color: blue;
+}
+
+#dataDiv {
+
+    color: red;
+    /* font-size: larger; */
+    font-weight: bold;
+    font-family: "Seven Segment";
+    font-size: 22px;
+}
+
+#task {
+    background-color: rgb(26, 90, 120);
+    color: rgb(246, 248, 250);
+    height: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#dataIn {
+    display: flex;
+    justify-content: center;
+}
+
+
+marquee {
+
+    color: aqua;
+    direction: "right";
+}
+
+footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+
+}
+
+footer>div {
+    font-size: smaller;
+    align-content: flex-end;
+    color: azure;
+
+}
+
+@media screen {}
